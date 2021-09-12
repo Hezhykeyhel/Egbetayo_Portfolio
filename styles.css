@@ -27,7 +27,7 @@ body{
     top: 150px;
     position: relative;
     left: 30px;
-    animation: ease-in-out 5s mySlides infinite;
+    animation: ease-in-out 4s mySlides infinite;
 }
 
 @keyframes mySlides{
@@ -60,8 +60,8 @@ body{
     0%, 100%{
         transform: translateY(0);
     }
-    50%{
-        transform: translateY(55px);
+    70%{
+        transform: translateY(50px);
     }
 }
 .navbar{
@@ -209,11 +209,11 @@ body{
     font-family: 'lato';
     color: rgb(0, 110, 114) ;
 }
-.img1, .top-img, .wave3-top, .topper{
+.navbar-brand, .top-img, .wave3-top, .topper{
     animation: slideIn ease-in 3s;
 }
 .nav-item a, .promo-title, .website, .wave3-con {
-    animation: slide ease-in-out 3s;
+    animation: slide ease-in 2.55s;
 }
 
 .website-p{
