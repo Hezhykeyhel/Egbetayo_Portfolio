@@ -27,10 +27,10 @@ body{
     top: 150px;
     position: relative;
     left: 30px;
-    animation: ease-in-out 4s mySlides infinite;
+    animation: ease-in-out 5s rotater infinite;
 }
 
-@keyframes mySlides{
+@keyframes rotater {
     from{
         transform: rotate(0);
     }
@@ -220,7 +220,7 @@ body{
     color:rgb(26, 221, 228);
 }
  .top-img, .wave3-top, .topper{
-    animation: slideIn ease-in 3s;
+    animation: slideIn ease-in 1.5s;
 }
 .nav-item a, .promo-title, .website, .wave3-con {
     animation: slide ease-in 1s;
