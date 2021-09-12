@@ -5,9 +5,11 @@
 }
 body{
     font-family: sans-serif;
-     margin:0;
-     padding:0;
+    margin: 0;
+    padding: 0;
+    width: 98.9%;
 }
+
 #navbar{
     position: sticky;
     top: 0;
@@ -196,9 +198,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color:rgb(26, 221, 228);
+    margin-left: -50px;
 
 }
-
+.wave3-top{
+    padding: 1em;
+}
 .promo-title{
     font-size: 5vw;
     font-weight: 600;
@@ -278,8 +283,9 @@ P{
     margin-bottom: 0;
 }
 .top-img{
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
+    margin-top: -25px;
     border-radius: 50%;
 }
 .waterwave{
@@ -473,9 +479,7 @@ P{
     padding-top: 8px;
     border-radius: 4px; 
 }
-.fas{
-    align-items:flex-start;
-}
+
 .foot{
     font-family: 'Lato';
 }
