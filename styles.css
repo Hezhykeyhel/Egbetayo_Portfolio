@@ -217,7 +217,7 @@ body{
     text-align: center;
     margin-top: 100px;
     font-family: 'lato';
-    color: rgb(0, 110, 114) ;
+    color:rgb(26, 221, 228);
 }
  .top-img, .wave3-top, .topper{
     animation: slideIn ease-in 3s;
@@ -251,6 +251,7 @@ body{
     animation: slider ease-in-out 2s infinite;
     margin-top: -25px;
     margin-left: -10px;
+    color:rgb(26, 221, 228);
 }
 
 @keyframes slider{
