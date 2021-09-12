@@ -165,6 +165,16 @@ body{
     border: solid 2px rgb(26, 221, 228);
     padding: 0.5em;
     border-radius: 20px;
+    animation: imgSlidetop 3s ease-in;
+}
+@ keyframes imgSlidetop{
+    from {
+     transform: translateY(100px)
+} 
+    to{
+     transform: translateY(0)     
+}
+
 }
 .navbar-nav li{
     padding: 0 10px;
@@ -209,7 +219,7 @@ body{
     font-family: 'lato';
     color: rgb(0, 110, 114) ;
 }
-.img1, .top-img, .wave3-top, .topper{
+ .top-img, .wave3-top, .topper{
     animation: slideIn ease-in 3s;
 }
 .nav-item a, .promo-title, .website, .wave3-con {
