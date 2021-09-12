@@ -411,14 +411,14 @@ P{
     padding: 100px 0;
 }
 #social-media p{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 30px;
     font-family: 'Lato';
     
 }
 .social-icons img{
-    width: 8.8vw;
+    width: 9.6vw;
     transition: 0.7s;
     border-radius: 50%;
 }
