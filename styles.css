@@ -210,7 +210,7 @@ body{
     color: rgb(0, 110, 114) ;
 }
 .img1, .top-img, .wave3-top, .topper{
-    animation: slideIn ease-in 5s;
+    animation: slideIn ease-in 3s;
 }
 .nav-item a, .promo-title, .website, .wave3-con {
     animation: slide ease-in-out 3s;
@@ -253,7 +253,7 @@ body{
 }
 @keyframes slide{
     from{
-        margin-right: -400px;
+        margin-right: -300px;
         color:yellow;
     }
     to{
@@ -263,7 +263,7 @@ body{
 }
 @keyframes slideIn{
     from{
-        margin-left: -500px;
+        margin-left: -300px;
     }
     to{
         margin-left: 0;
