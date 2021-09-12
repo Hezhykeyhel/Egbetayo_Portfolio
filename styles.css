@@ -329,28 +329,7 @@ P{
 }
 .title{
     font-family: 'Lato';
-    font-size: 30px;
 }
-.title::before{
-    content: '';
-    background-image: linear-gradient(to right, #a9d6c7, #350f58);
-    height: 5px;   
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    transform: translateY(52px);
-}
-.title::after{
-    content: '';
-    background-image: linear-gradient(to right, #a9d6c7, #350f58);
-    height: 10px;   
-    width: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-bottom: 40px;
-    transform: translateY(8px);
 }
 /*------Like Button Activator-----------*/
 .heart-btn{
@@ -421,14 +400,14 @@ P{
     padding: 100px 0;
 }
 #social-media p{
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 600;
     margin-bottom: 30px;
     font-family: 'Lato';
     
 }
 .social-icons img{
-    width: 7.8vw;
+    width: 8.8vw;
     transition: 0.7s;
     border-radius: 50%;
 }
