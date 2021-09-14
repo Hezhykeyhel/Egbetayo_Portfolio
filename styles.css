@@ -60,8 +60,8 @@ body{
     0%, 100%{
         transform: translateY(0);
     }
-    70%{
-        transform: translateY(50px);
+    50%{
+        transform: translateY(35px);
     }
 }
 .navbar{
@@ -317,7 +317,8 @@ P{
 }
 .service-img{
     border-radius: 50px;
-    width: 30vw;
+    width: 100%;
+    height: 30vw;
 }
 .service h4{
     padding: 5px;
@@ -328,8 +329,6 @@ P{
 }
 .service p{
     text-align: left;
-    font-size: 18px;
-    line-height: 20px;
     font-family: 'Lato';
 }
 .service ul li{
